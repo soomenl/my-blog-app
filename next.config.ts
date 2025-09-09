@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: 'export',
+    basePath: 'my-blog-app',
 };
 
 export default nextConfig;
